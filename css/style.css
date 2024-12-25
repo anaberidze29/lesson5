@@ -1,0 +1,60 @@
+.container {
+    width: 1336px;
+    margin: 0 auto;
+    background-color: lightgray;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+h4 {
+    //styleName: Text/16px/Semibold;
+     font-family: Inter;
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 26px;
+     text-align: center;
+     text-underline-position: from-font;
+     text-decoration-skip-ink: none;
+     color: #282828;
+}
+h3 {
+    font-family: Inter;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: -1px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #282828;
+}
+h5 {
+    //styleName: Text/20px/Regular;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: #5F6980;
+}
+.flex-row1 {
+    height: 908px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.flex-row2 {
+    height: 908px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.box {
+    width: 310px;
+    height: 430px;
+    border: 1px solid #000;
+}
