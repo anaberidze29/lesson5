@@ -60,7 +60,7 @@ h6 {
      gap: 24px;
      padding: 10px;
 }
-span {
+p {
      font-family: Inter;
      font-size: 14px;
      font-weight: 400;
@@ -69,10 +69,11 @@ span {
      text-underline-position: from-font;
      text-decoration-skip-ink: none;
      color: #5F6980;
-     padding: 20px;
+     padding: 10px;
      gap: 24px;
      width: 278px;
      height: 44px;
+     align-content: center;
 }
 .flex-row1 {
     width: 1336px;
@@ -103,10 +104,9 @@ span {
     width: Hug (140px)px;
     height: Hug (36px)px;
     gap: 16px;
-    opacity: 0px;
-    padding-left: 5px;
+    padding: 10px;
 }
-.footer-span {
+.footer-p {
     width: 306.05px;
     height: 100px;
     top: 204px;
