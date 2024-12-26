@@ -39,22 +39,74 @@ h5 {
     text-align: center;
     color: #5F6980;
 }
+h2 {
+    //styleName: Text/18px/Semibold;
+     font-family: Inter;
+     font-size: 18px;
+     font-weight: 600;
+     line-height: 20px;
+     text-align: left;
+     text-underline-position: from-font;
+     text-decoration-skip-ink: none;
+     color: #282828;
+     gap: 24px;
+     padding: 10px;
+}
+h6 {
+    //styleName: Text/14px/Regular;
+     font-family: Inter;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 20px;
+     text-align: left;
+     text-underline-position: from-font;
+     text-decoration-skip-ink: none;
+     color: #3E3E59;
+     gap: 24px;
+     padding: 10px;
+}
+p {
+    //styleName: Text/14px/Regular;
+     font-family: Inter;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 20px;
+     text-align: left;
+     text-underline-position: from-font;
+     text-decoration-skip-ink: none;
+     color: #5F6980;
+     padding: 10px;
+     gap: 24px;
+}
 .flex-row1 {
-    height: 908px;
+    width: 1336px;
+    margin: 0 auto;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+    vertical-align: middle;
 }
 .flex-row2 {
-    height: 908px;
+    width: 1336px;
+    margin: 0 auto;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+    vertical-align: middle;
 }
 .box {
     width: 310px;
     height: 430px;
     border: 1px solid #000;
+}
+.icones {
+    width: Hug (140px)px;
+height: Hug (36px)px;
+gap: 16px;
+opacity: 0px;
+padding-left: 5px;
 }
