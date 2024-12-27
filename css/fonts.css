@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Inter 28pt';
+    font-family: 'Inter';
     src: url('../fonts/Inter28pt-Regular.eot');
     src: url('../fonts/Inter28pt-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Inter28pt-Regular.woff2') format('woff2'),
@@ -9,3 +9,9 @@
     font-style: normal;
     font-display: swap;
 }
+.inter {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
